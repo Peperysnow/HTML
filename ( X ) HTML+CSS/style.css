@@ -1,0 +1,52 @@
+#main-container{
+    display:grid;
+    gap: 5px;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+#main-container > div {
+border:3px solid black;
+border-raidus: 5px;
+}
+#item1 {
+        grid-column-start: 1;
+        grid-column-end:3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        background-color: aquamarine;
+}
+
+#item2 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+ background-color:rgb(53, 106, 153);
+}
+
+#item3{
+ background-color:bisque;
+}
+
+#item4{
+   background-color: blue;  
+}
+
+#item5{
+ background-color:chartreuse;
+}
+
+#item6{
+   background-color: coral; 
+}
+
+#item7{
+    background-color:blanchedalmond;
+}
+
+#item8{
+  background-color:darkkhaki;
+}
+
+#item9{
+   background-color:brown; 
+}
