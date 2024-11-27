@@ -7,7 +7,7 @@
 
 #main-container > div {
 border:3px solid black;
-border-raidus: 5px;
+border-radius: 5px;
 }
 #item1 {
         grid-column-start: 1;
