@@ -1,0 +1,38 @@
+header {
+}
+
+nav {
+width:50%;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+.active {
+font-weight:bold;
+background-color: darkorange;
+
+}
+
+#tasks-container {
+display: grid;
+grid-template-columns: 3fr 1fr;
+
+}
+
+#left {
+
+   background-color: cadetblue 
+}
+
+#right {
+
+background-color: rosybrown;
+
+}
+
+
+#tasks_container {
+    display: grid;
+    grid-template-columns: repeat(4,250px);
+    }
+    
