@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript if .. else</h2>
+
+<p>Ievadi stundas(1-24):</p>
+<input type="skaitlis" id="lietotajaStundas">
+<button onclick="izvadaSveicienu()">Apstiprināt</button>
+
+<p>Sveiciens:</p>
+<p id="IzvadesSveicienu"></p>
+
+<script>
+function izvadaSveicienu() {
+  // Iegūst lietotāja ievadīto stundu
+  const hour = document.getElementById("lietotajaStundas").value;
+  let sveiciens;
+
+  // Pārbauda, vai ievadītā stunda ir mazāka par 11
+  if (hour < 10) {
+  sveiciens = "Labrīt!";
+} else if (hour < 20) {
+  sveiciens = "Labdien!";
+} else {
+  sveiciens ="Labvakar!";
+}
+
+  // Parāda sveicienu
+  document.getElementById("IzvadesSveiciens").innerHTML = sveiciens;
+}
+</script>
+
+</body>
+</html>

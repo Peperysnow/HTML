@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sveicieni</title>
+</head>
+
+<body>
+<h1>JavaScript if else</h1>
+<p>Ievadiet stundas (1-24)</p>
+<input type="skaitlis" id="lietotajastundas">
+<button oneclick="izvadaSveicienu()">Apstiprināt</button>
+
+<p>Sveiciens:</p>
+<p id="izvadesSveicienu"></p>
+<script>
+// iegūst ievadītās stundas
+function izvadaSveicienu(){
+
+    const hour = document.getElementByID("lietotajastundas").value;
+let sveiciens;
+
+
+if (hours < 10){
+sveiciens="Labrīt";
+}
+else if(hour < 20){
+sveiciens="Labdien"; 
+} 
+else{
+sveiciens="Labvakar";
+}
+//pārbaudes Sveiciens
+document.getElementById("IzvadesSveiciens").innerHTML = sveiciens;
+}
+</script>
+
+</body>
+</html>
