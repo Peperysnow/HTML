@@ -1,5 +1,6 @@
-let arr= [1,2,3,4,5];
 /*
+let arr= [1,2,3,4,5];
+
 for(let i= 0; i < 5; i++)
 {
 console.log(arr[i]);
@@ -17,7 +18,7 @@ while(true)
        break;
     }
 }
-*/
+/*
 
 /*
 let i=0
@@ -39,7 +40,7 @@ if(i == 10)
 */
 
 let user = true;
-let array;
+let array = [];
 while(user)
 {
 
@@ -49,16 +50,16 @@ if(x < 0)
  user = false;
 continue;
 }
-Array.push(x);
+array.push(x);
 }
 console.log(array);
 
 
 
-let result;
-for(let i = 0; i < array.lenght ; i++)
+let result = 0;
+for(let i = 0; i < array.length ; i++)
 {
     result += array[i];
 }
-result /= array.lenght;
+result /= array.length;
 console.log(result);
