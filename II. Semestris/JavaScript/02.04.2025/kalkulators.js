@@ -1,27 +1,24 @@
 function myfunction()
 {
- let 1 = document.getElementById("1");
+ let b1 = document.getElementById("1");
  console.log(1);
- let 2 = document.getElementById("2");
+ let b2 = document.getElementById("2");
  console.log(2);
- let 3 = document.getElementById("3");
+ let b3 = document.getElementById("3");
  console.log(3);
- let 4 = document.getElementById("4");
+ let b4 = document.getElementById("4");
  console.log(4);
- let 5 = document.getElementById("5");
+ let b5 = document.getElementById("5");
  console.log(5);
- let 6 = document.getElementById("6");
+ let b6 = document.getElementById("6");
  console.log(6);
- let 7 = document.getElementById("7");
+ let b7 = document.getElementById("7");
  console.log(7);
- let 8 = document.getElementById("8");
+ let b8 = document.getElementById("8");
  console.log(8);
- let 9 = document.getElementById("9");
+ let b9 = document.getElementById("9");
  console.log(9);
 
- if{
-
- }
 
  
 
