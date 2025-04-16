@@ -1,3 +1,4 @@
+/*
 function myfunction()
 {
  let 1 = document.getElementById("1");
@@ -23,7 +24,7 @@ function myfunction()
 
  }
 
- 
+ */
 
 
 
@@ -32,4 +33,3 @@ function myfunction()
 
 
 
-}
